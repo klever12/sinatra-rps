@@ -23,3 +23,7 @@ get("/rock") do
 
   erb(:rock)
 end
+
+get("/paper") do
+  erb(:paper)
+end
